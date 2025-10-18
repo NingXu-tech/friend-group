@@ -1,5 +1,34 @@
-"""An example of how to represent a group of acquaintances in Python."""
+my_group = {
+    'Jill':{
+        'age':26,
+        'job':'Biologist',
+        'relationship':{
+            'Zalika':'friend',
+            'John':'partner',
+        }
+    },
+    'Zalika':{
+        'age':28,
+        'job':'Artist',
+        'relationship':{
+            'Jill':'friend',
+        }
+    },
+    'John':{
+        'age':27,
+        'job':'Writer',
+        'relationship':{
+            'Jill':'partner',
+        }
+    },
+    'Nash':{
+        'age':34,
+        'job':'Chef',
+        'relationship':{
+            'Jill':'cousin',
+            'Zalika':'landlord'
+        }
+    }
+}
 
-# Your code to go here...
-
-my_group =
+print(my_group)
